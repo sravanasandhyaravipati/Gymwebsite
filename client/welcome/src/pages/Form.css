@@ -1,0 +1,14 @@
+.Form1{
+  display: flex;
+  align-items: center;
+  background-color: #29a396;
+  height: 100vh;
+  justify-content: center;
+}
+.Form2{
+  background-color: whitesmoke;
+  border: 2px solid;
+  width: 300px;
+  box-shadow: 0 0 3px 0 rgba(red, green, blue, alpha);
+
+}
