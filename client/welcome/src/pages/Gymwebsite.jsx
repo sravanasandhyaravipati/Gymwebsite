@@ -48,7 +48,7 @@ const GymWebsite = () => {
               sunt sed tempora neque molestiae corrupti nobis harum ullam eos nam!
             </p>
 
-            <a href="#" className="btn mt">Get Started Now</a>
+            <a href="#" className="btn mt">Started Now</a>
           </div>
 
           <div className="visual">
