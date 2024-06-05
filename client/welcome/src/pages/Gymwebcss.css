@@ -47,7 +47,7 @@
   .section::after,
   .section::before {
     content: "";
-    background: url(https://raw.githubusercontent.com/programmercloud/pgc-gym/main/img/blur-1.png);
+    background: url();
     position: absolute;
     width: 400px;
     height: 400px;
@@ -130,6 +130,7 @@
   .logo {
     cursor: pointer;
   }
+  
   
   .logo img {
     width: 80px;
@@ -244,11 +245,17 @@
     margin-bottom: 10px;
     outline: 2px solid #fff;
     padding: 14px;
+    
+  }
+  .trainer img :hover{
+    transition: 0.3s linear;
+    box-shadow: var(--clr-primary) 0px 5px 15px;
   }
   
   .trainer .mb {
     margin-bottom: 10px;
   }
+  
   /* End Trainer */
   
   /* Testimonial */

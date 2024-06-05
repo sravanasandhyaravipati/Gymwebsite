@@ -1,0 +1,43 @@
+.Form3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://wallpapercave.com/wp/wp2482998.jpg");
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat;
+  border: 2px ridge black;
+}
+
+.Form4 {
+  background: rgba(36, 35, 35, 0.5); /* Transparent gray background */
+  padding: 20px;
+  
+  
+}
+
+.Form4 label {
+  color: #0d0c0c; /* Text color */
+}
+
+.Form4 input[type="text"] {
+  
+  background: transparent; /* Transparent input background */
+  color: #121111; /* Text color */
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.Form4 button {
+  background-color: #28a745; /* Change to your desired button color */
+  color: #0e0d0d;
+  border: none;
+  padding: 10px 20px;
+  
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.Form4 button:hover {
+  background-color: #218838; /* Change to your desired hover color */
+}

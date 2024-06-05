@@ -4,8 +4,10 @@ import React from 'react';
 
 import GymWebsite from './pages/Gymwebsite';
 
-import Form from './pages/Form';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import LoginPage from './pages/Form';
+import OtpForm from './pages/Otpverify';
 
 
 
@@ -14,7 +16,8 @@ const App = () => {
     <Router>
       <Routes>
         <Route path='/' element={<GymWebsite/>}/>
-        <Route path='/Form' element={<Form/>}/>
+        <Route path='/Form' element={<LoginPage/>}/>
+        <Route path='/Otpverify' element={<OtpForm/>}/>
       </Routes>
     </Router>
   );
